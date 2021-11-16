@@ -1,0 +1,45 @@
+version: '3.8'
+services:
+  web:
+    image :  facegenie_dynamic_master
+    #name : facegenie_dynamic_master
+    # environment:
+    #   - MONGO_INITDB_ROOT_USERNAME = 'root'
+    #   - MONGO_INITDB_ROOT_PASSWORD = 'Secret'
+    command: python manage.py makemigrations && python manage.py migrate
+    command: python manage.py runserver 0.0.0.0:8000
+
+    
+    ports:
+    - "50001:50001"
+    volumes:
+    - app-data:/code
+    networks:
+      - frontend
+      - backend
+    depends_on:
+      - mongo
+    
+
+  mongo:
+    image: mongo
+    environment:
+      - USERNAME = 'root'
+      - PASSWORD = 'Secret'
+
+    volumes:
+      - mongo-data:/data/db
+      - mongo-configdb:/data/configdb
+    networks:
+      - backend
+    
+volumes:
+  mongo-data:
+  mongo-configdb:
+  app-data:
+
+networks:
+  frontend:
+    driver: bridge
+  backend:
+    driver: bridge

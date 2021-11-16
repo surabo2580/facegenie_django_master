@@ -1,0 +1,690 @@
+!!python/object:django.db.models.query.QuerySet
+_db: null
+_defer_next_filter: false
+_deferred_filter: null
+_django_version: 3.2.9
+_fields: null
+_for_write: false
+_hints: {}
+_iterable_class: !!python/name:django.db.models.query.ModelIterable ''
+_known_related_objects: {}
+_prefetch_done: false
+_prefetch_related_lookups: !!python/tuple []
+_query: !!python/object:django.db.models.sql.query.Query
+  _annotation_select_cache: null
+  _extra_select_cache: null
+  _filtered_relations: {}
+  alias_cols: true
+  alias_map:
+    fgnapp_triggerapp: !!python/object:django.db.models.sql.datastructures.BaseTable
+      table_alias: fgnapp_triggerapp
+      table_name: fgnapp_triggerapp
+  alias_refcount:
+    fgnapp_triggerapp: 0
+  annotation_select_mask: null
+  annotations: {}
+  base_table: fgnapp_triggerapp
+  combinator: null
+  combinator_all: false
+  combined_queries: !!python/tuple []
+  default_cols: true
+  default_ordering: true
+  deferred_loading: !!python/tuple
+  - !!python/object/apply:builtins.frozenset
+    - []
+  - true
+  distinct: false
+  distinct_fields: !!python/tuple []
+  explain_format: null
+  explain_options: {}
+  explain_query: false
+  external_aliases: {}
+  extra: {}
+  extra_order_by: !!python/tuple []
+  extra_select_mask: null
+  extra_tables: !!python/tuple []
+  filter_is_sticky: false
+  group_by: null
+  high_mark: null
+  low_mark: 0
+  max_depth: 5
+  model: &id001 !!python/name:fgnapp.models.TriggerApp ''
+  order_by: !!python/tuple []
+  select: !!python/tuple []
+  select_for_no_key_update: false
+  select_for_update: false
+  select_for_update_nowait: false
+  select_for_update_of: !!python/tuple []
+  select_for_update_skip_locked: false
+  select_related: false
+  standard_ordering: true
+  subquery: false
+  table_map:
+    fgnapp_triggerapp:
+    - fgnapp_triggerapp
+  used_aliases: !!set {}
+  values_select: !!python/tuple []
+  where: !!python/object:django.db.models.sql.where.WhereNode
+    children: []
+    connector: AND
+    contains_aggregate: false
+    negated: false
+  where_class: !!python/name:django.db.models.sql.where.WhereNode ''
+_result_cache:
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: suraj/media/path
+    port: 123654
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic_facegenei
+    path: images/dir/media.png
+    port: 55555
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dynamic
+    path: hyui/fsdk/wddsa
+    port: 88888
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+- !!python/object/apply:django.db.models.base.model_unpickle
+  args:
+  - !!python/tuple
+    - fgnapp
+    - TriggerApp
+  state:
+    Trigger_id: null
+    _django_version: 3.2.9
+    _state: !!python/object:django.db.models.base.ModelState
+      adding: false
+      db: default
+      fields_cache: {}
+    appname: dyamic
+    path: suraj/naomi/biku/yayir
+    port: 5678
+_sticky_filter: false
+model: *id001

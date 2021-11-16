@@ -1,0 +1,29 @@
+{% extends 'home.html' %}
+
+{% block title %} register/trigger product {% endblock title %}
+
+{% block body %}
+<div class="container">
+  <form action="/trigerring/" method="post">
+    {% csrf_token %}
+
+    <div class="mb-3">
+      <label for="portV"></label>ENTER PORT</label>
+      <input type="integer" class="form-control" name="portV" id="integer" aria-describedby="portName">
+    </div>
+    <div class="mb-3">
+      <label for="path">PATH</label>
+      <input type="text" class="form-control" name="path" id="path">
+    </div>
+    <div class="mb-3">
+      <label for="appname">APP NAME</label>
+      <input type="text" class="form-control" name="appname" id="appname">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+{% endblock body %}
